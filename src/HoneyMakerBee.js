@@ -7,7 +7,7 @@ var HoneyMakerBee = function() {
 };
 
 //Inherit the methods from the parent class
-HoneyMakerBee.prototype = Object.create(Grub.prototype);
+HoneyMakerBee.prototype = Object.create(Bee.prototype);
 
 // Class functions
 HoneyMakerBee.prototype.makeHoney = function() {
